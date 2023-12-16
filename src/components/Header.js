@@ -15,7 +15,7 @@ const Header = (props) => (
         <div className="social">
           <a
             target="_blank"
-            href="//zuoguyoupan.photothe.life"
+            href="//bolebook.com"
             className="ico fa fa-camera"
           />
           {/* <a target="_blank" href="//www.douban.com/people/yanggc/" className="ico fa fa-douban" /> */}
@@ -25,14 +25,7 @@ const Header = (props) => (
     <nav>
       <ul>
 
-        <li>
-          <Link to="//zuoguyoupan.photothe.life">相册</Link>
-        </li>
-        <li>
-          <a target="_blank" href="//plog.photothe.life">
-            博客
-          </a>
-        </li>
+  
         <li>
           <a
             href="#"
