@@ -7,7 +7,7 @@ const Header = (props) => (
     <img className="logo" src={avator} alt="logo" />
     <div className="content">
       <div className="inner">
-        <h1>Photothe.Life
+        <h1>Photo·the·Life
         </h1>
         <span className="slogan">生活不来就我</span>
         <br />
