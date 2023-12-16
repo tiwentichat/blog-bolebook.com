@@ -35,20 +35,24 @@ const Wrapper = styled.footer`
   }
 `
 
+
+
 const Footer = (props) => (
   <Wrapper style={props.timeout ? { display: 'none' } : {}}>
-    <p className="copyright">&copy;2013 - {new Date().getFullYear()}</p>
-    <p className="copyright">Created By 左顾右盼 With ♥️</p>
-    <p className="links">
-      <span className="title">友链：</span>
-      <a target="_blank" href="https://imoss.online">
-        iMoss.online
+    <p className="copyright">&copy;2017 - {new Date().getFullYear()}</p>
+    <p className="copyright">Created By zuoguyoupan With ♥️</p>
+
+    <p className="icp">
+      <a target="_blank" href="http://www.beian.miit.gov.cn/">
+        沪ICP备19017060号-1
       </a>
-
     </p>
-
   </Wrapper>
 )
+
+
+
+
 
 Footer.propTypes = {
   timeout: PropTypes.bool
