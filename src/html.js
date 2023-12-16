@@ -23,7 +23,7 @@ export default class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
         </body>
-        <script src="https://photo.bolebook.com/forphotothelife/widget.js" />
+          
       </html>
     )
   }
